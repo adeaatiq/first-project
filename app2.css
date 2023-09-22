@@ -1,0 +1,115 @@
+h1 {
+    text-align: center;
+    text-decoration: color rgb(20, 0, 32) underline wavy;
+    font-weight: 500;
+    letter-spacing: 15px;
+    font-size: 60px;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+}
+
+p {
+    line-height: 25px;
+}
+
+*
+
+/* {
+    background-color: black;
+} */
+body {
+    background-color: #000;
+}
+
+* {
+    color: white;
+}
+
+h1,
+h2,
+h3 {
+    text-align: center;
+    color: #ffc922
+}
+
+button {
+    background-color: #ffc922;
+    font-size: 20px;
+}
+
+#search {
+    background-color: white;
+}
+
+.account {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    padding: 10px;
+}
+
+a {
+    color: #ffc922;
+}
+
+input[type="text"] {
+    color: rgb(139, 137, 6);
+}
+
+button:hover {
+    background-color: #ffc922;
+    color: #000;
+}
+
+h2::first-letter {
+    font-size: 40px;
+}
+
+p::selection {
+    width: fit-content;
+    height: fit-content;
+    color: #ffc922;
+}
+
+h1 {
+    text-align: center;
+    width: min-content;
+    height: min-content;
+    margin-bottom: 15px;
+}
+
+#search,
+#username {
+    color: white;
+    font-style: italic;
+    background-color: #000;
+    border-color: #ffc922;
+    border-width: 9px;
+    border-style: double;
+    /*border: 10px double #ffc922;*/
+    box-sizing: border-box;
+    border-radius: 30px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+#span1,
+#span2 {
+    border-width: 5px;
+    background-color: #ffc922;
+    border-color: #ffc922;
+    border-radius: 50%;
+    border-style: double;
+    margin: 250px;
+    padding: 6px;
+    color: rgb(0, 0, 0);
+    opacity: 0.8;
+    width: 10px;
+    height: 30px;
+    position: sticky;
+    top: 20px;
+}
+
+p {
+    padding: 30px;
+}
